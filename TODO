@@ -1,0 +1,22 @@
+types
+variants
+states
+pseudo
+
+Button:
+   type: 
+    .primary {
+
+    }
+    variants: 
+    .outline {
+
+    }
+    .third {
+
+    }
+    
+    type: 
+    .only-text {
+
+    }

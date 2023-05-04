@@ -1,0 +1,68 @@
+@import url("../../styles/variables.module.css");
+
+.button {
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 17px 25px;
+}
+
+.default {
+  background-color: var(--secondary-green);
+  border: 2px solid transparent;
+}
+
+.default:hover {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+}
+
+.outline {
+  border: 2px solid var(--secondary-green);
+  background-color: var(--primary-white);
+}
+
+.outline:hover {
+  border-color: var(--primary-black);
+}
+
+.only-text {
+  border: none;
+  background-color: var(--primary-white);
+  border-radius: 0px;
+  padding: 2px 0px;
+  border-bottom: 2px solid var(--secondary-green);
+}
+
+.only-text:hover {
+  color: var(--primary-black);
+  border-color: var(--primary-black);
+  background-color: var(--primary-white);
+}
+
+.button:disabled {
+  opacity: 0.5;
+}
+
+.default:disabled {
+  background-color: var(--grey-medium);
+  color: var(--grey-primary);
+}
+
+.outline:disabled {
+  border-color: var(--grey-medium);
+  color: var(--grey-primary);
+}
+
+.only-text:disabled {
+  border-color: var(--grey-primary);
+  color: var(--grey-medium);
+  background-color: var(--primary-white);
+}
