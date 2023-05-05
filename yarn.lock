@@ -6996,20 +6996,6 @@ through2@^2.0.3:
     readable-stream "~2.3.6"
     xtend "~4.0.1"
 
-tlt-ui-kit@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/tlt-ui-kit/-/tlt-ui-kit-0.0.6.tgz#f32f41201490531c88299115d826593ab2bd8c5f"
-  integrity sha512-4r/klBFa3KI7BHITAIRNI1xW9iK/SututpnR7htSiRLibMDChwvmwF5aD2VBpw4ILYBlTaigFFDd7y8EiaEbpQ==
-  dependencies:
-    "@rollup/plugin-commonjs" "^24.1.0"
-    "@rollup/plugin-node-resolve" "^15.0.2"
-    postcss "^8.4.23"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    rollup-plugin-peer-deps-external "^2.2.4"
-    rollup-plugin-postcss "^4.0.2"
-    rollup-plugin-typescript2 "^0.34.1"
-
 tmpl@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"

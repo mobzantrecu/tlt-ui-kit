@@ -17,4 +17,7 @@
   --success-green: #d3f2df;
   --warning-orange: #f4e38e;
   --error-red: #f4724a;
+
+  /* Other colors */
+  --transparent: transparent;
 }
