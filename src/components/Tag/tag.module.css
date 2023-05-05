@@ -1,0 +1,45 @@
+@import url("../../styles/global.module.css");
+
+.tag {
+  border-radius: 10px;
+  padding: 3px 10px;
+  width: fit-content;
+  gap: 3px;
+}
+
+.icons {
+  font-size: 0.7rem;
+}
+
+.closeButton {
+  padding: 0;
+  margin: 0;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tag * {
+  color: var(--primary-blue);
+}
+
+.default {
+  background-color: var(--secondary-grey);
+  border: 1px solid var(--transparent);
+}
+
+.default:hover {
+  background-color: var(--primary-white);
+  border-color: var(--secondary-grey);
+}
+
+.no-background {
+  background-color: var(--primary-white);
+  border: 1px solid var(--secondary-grey);
+}
+
+.no-background:hover {
+  background-color: var(--secondary-grey);
+  border-color: var(--transparent);
+}
