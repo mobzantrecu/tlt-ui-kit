@@ -1,4 +1,4 @@
-import buttonStyles from "./Button.module.css";
+import buttonStyles from "./button.module.css";
 
 interface ButtonProps {
   /**
@@ -8,11 +8,11 @@ interface ButtonProps {
   /**
    * Children of the button, this can be any element
    */
-  children: JSX.Element;
+  children: JSX.Element | string;
   /**
    * Type of the button
    */
-  type?: "primary" | "only-text";
+  type?: "primary" | "only-text" | "with-arrow" | "only-icon";
   /**
    * Modifier of the button
    */
@@ -31,6 +31,11 @@ interface ButtonProps {
    */
   disabled?: boolean;
 }
+
+const ArrowIcon = () => {
+  const icon = ">";
+  return <div className={buttonStyles.arrowIcon}>{icon}</div>;
+};
 
 const Button = ({
   children,
@@ -51,6 +56,7 @@ const Button = ({
       disabled={disabled}
     >
       {children}
+      {type === "with-arrow" && <ArrowIcon />}
     </button>
   );
 };

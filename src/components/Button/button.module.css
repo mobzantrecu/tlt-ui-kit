@@ -1,4 +1,4 @@
-@import url("../../styles/variables.module.css");
+@import url("../../styles/global.module.css");
 
 .button {
   border-radius: 100px;
@@ -47,6 +47,32 @@
   background-color: var(--primary-white);
 }
 
+.tertiary {
+  background-color: var(--secondary-grey);
+  border: 2px solid transparent;
+}
+
+.tertiary:hover {
+  border-color: var(--primary-black);
+}
+
+.with-arrow {
+  padding: 7px 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.only-icon {
+  padding: 10px 10px;
+  border-color: var(--primary-blue);
+}
+
+.only-icon.default {
+  background: var(--primary-white);
+  border-color: transparent;
+}
+
 .button:disabled {
   opacity: 0.5;
 }
@@ -65,4 +91,18 @@
   border-color: var(--grey-primary);
   color: var(--grey-medium);
   background-color: var(--primary-white);
+}
+
+.tertiary:disabled {
+  background-color: var(--grey-medium);
+}
+
+.arrowIcon {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-green);
 }
