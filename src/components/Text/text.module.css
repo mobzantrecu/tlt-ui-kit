@@ -1,0 +1,8 @@
+@import url("../../styles/global.module.css");
+
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  text-decoration-color: var(--primary-blue);
+  text-underline-offset: 10px;
+}

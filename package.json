@@ -3,7 +3,7 @@
   "author": "Bewise",
   "private": false,
   "name": "tlt-ui-kit",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -22,8 +22,7 @@
     "react-dom": "^18.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-typescript2": "^0.34.1",
-    "tlt-ui-kit": "^0.0.6"
+    "rollup-plugin-typescript2": "^0.34.1"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.8",
