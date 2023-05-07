@@ -31,9 +31,9 @@ interface Tag {
 const Tag = ({
   children,
   leftIcon,
-  layoutComponentClasses,
   closable,
   onClose,
+  layoutComponentClasses = "",
   modifier = "default",
 }: Tag) => {
   return (

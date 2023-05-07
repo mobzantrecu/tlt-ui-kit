@@ -22,7 +22,7 @@ interface Card {
 
 const Card = ({
   children,
-  layoutComponentClasses,
+  layoutComponentClasses = "",
   borderVariant = "transparent",
   backgroundVariant = "primary-white",
 }: Card) => {
@@ -30,7 +30,7 @@ const Card = ({
     <section
       className={`${cardStyles.card} ${layoutComponentClasses}`}
       style={{
-        borderColor: `var(--${borderVariant})` ,
+        borderColor: `var(--${borderVariant})`,
         backgroundColor: `var(--${backgroundVariant})`,
       }}
     >

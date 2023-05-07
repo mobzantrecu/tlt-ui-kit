@@ -35,7 +35,7 @@ type HtmlTextElementProps = {
   children: JSX.Element;
   fontSize: number | string;
   fontWeight?: "normal" | "bold" | "medium";
-  variant?: "underline" | 'default';
+  variant?: "underline" | "default";
   layoutComponentClasses?: string;
 };
 
@@ -44,7 +44,7 @@ const HtmlTextElement = ({
   children,
   fontSize,
   fontWeight,
-  layoutComponentClasses,
+  layoutComponentClasses = "",
 }: HtmlTextElementProps) => {
   const weight = fontWeight === "medium" ? 500 : fontWeight;
 
@@ -61,7 +61,7 @@ const HtmlTextElement = ({
 const Text = ({
   fontSize,
   children,
-  layoutComponentClasses,
+  layoutComponentClasses = "",
   variant = "default",
   renderAs = "span",
   fontWeight = "normal",
