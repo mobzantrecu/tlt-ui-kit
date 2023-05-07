@@ -1,0 +1,13 @@
+@import url("../../styles/global.module.css");
+
+.progressBar {
+  width: 100%;
+  height: 2px;
+  background: var(--grey-lighter);
+}
+
+.fillingBar {
+  width: 0px;
+  height: 100%;
+  background: var(--primary-blue);
+}
