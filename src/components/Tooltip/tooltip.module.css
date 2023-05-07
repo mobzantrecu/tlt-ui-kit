@@ -1,0 +1,10 @@
+@import url("../../styles/global.module.css");
+
+.tooltip {
+  border-radius: 13px;
+  padding: 8px 11px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 50%;
+}
