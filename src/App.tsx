@@ -1,7 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import { Button } from "tlt-ui-kit";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,9 +8,9 @@ function App() {
   return (
     <>
       <div>
-        <Button onClick={() => null}>
+        {/* <Button onClick={() => null}>
           <span>Hola</span>
-        </Button>
+        </Button> */}
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>

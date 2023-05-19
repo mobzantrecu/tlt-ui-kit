@@ -1,7 +1,7 @@
 import ColorVariants from "../constants";
 import cardStyles from "./card.module.css";
 
-interface Card {
+interface CardProps {
   /**
    * Children of the text
    */
@@ -25,7 +25,7 @@ const Card = ({
   layoutComponentClasses = "",
   borderVariant = "transparent",
   backgroundVariant = "primary-white",
-}: Card) => {
+}: CardProps) => {
   return (
     <section
       className={`${cardStyles.card} ${layoutComponentClasses}`}

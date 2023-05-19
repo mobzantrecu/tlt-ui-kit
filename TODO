@@ -1,22 +1,2 @@
-types
-variants
-states
-pseudo
-
-Button:
-   type: 
-    .primary {
-
-    }
-    variants: 
-    .outline {
-
-    }
-    .third {
-
-    }
-    
-    type: 
-    .only-text {
-
-    }
+https://www.figma.com/file/OIk9Lvcw7ZAdFsyoWMIy4a/ui-kit-tlt?type=design&node-id=0-1&t=COwheLQij1oF7c3P-0
+https://www.figma.com/file/pPseqi3or364nCLmJZWdcs/TLT-B2C-Wireframes?type=design&node-id=0-1&t=l4LUI5CCKB9GOUM6-0

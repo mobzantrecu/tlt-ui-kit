@@ -1,0 +1,21 @@
+@import url("../../styles/global.module.css");
+
+.xs {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.s {
+  height: 1rem;
+  width: 1rem;
+}
+
+.m {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.l {
+  height: 2rem;
+  width: 2rem;
+}

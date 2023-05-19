@@ -1,7 +1,7 @@
 import { Text } from "../Text";
 import tagStyles from "./tag.module.css";
 
-interface Tag {
+interface TagProps {
   /**
    * Children of the tag
    */
@@ -35,7 +35,7 @@ const Tag = ({
   onClose,
   layoutComponentClasses = "",
   modifier = "default",
-}: Tag) => {
+}: TagProps) => {
   return (
     <div
       className={`${tagStyles.tag} ${tagStyles[modifier]} ${layoutComponentClasses} `}
