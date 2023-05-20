@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "target": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "target": "ES2016",
+    "typeRoots": ["node_modules/@types", "src/types"],
+    // "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
     "skipLibCheck": true,
     "declaration": true,
-    "declarationDir": "dist",
+    "declarationDir" :"types",
 
     /* Bundler mode */
     "moduleResolution": "node",
@@ -24,7 +25,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src","./public"],
   "exclude": [
     "node_modules",
     "src/stories"

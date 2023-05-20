@@ -27,6 +27,7 @@ const StepIndicator = ({ stepNumber, modifier }: Step) => {
 };
 
 const StepSeparator = ({ stepNumber, isCurrent }: StepSeparator) => {
+  console.log(stepNumber, isCurrent);
   return <div></div>;
 };
 

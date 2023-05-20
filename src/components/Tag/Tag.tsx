@@ -1,4 +1,4 @@
-import { Text } from "../Text";
+import Text from "../Text/Text";
 import tagStyles from "./tag.module.css";
 
 interface TagProps {
