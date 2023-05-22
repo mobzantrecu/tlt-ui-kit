@@ -1,6 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import React from "react";
 import Button from "../../components/Button/Button"
+import "../../main.css"
+
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta = {
   title: "Button",

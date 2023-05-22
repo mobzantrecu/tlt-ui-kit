@@ -8,7 +8,7 @@ interface ButtonProps {
   /**
    * Children of the button, this can be any element
    */
-  children: JSX.Element | string;
+  children?: JSX.Element | string;
   /**
    * Type of the button
    */

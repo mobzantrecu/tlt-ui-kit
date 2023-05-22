@@ -21,3 +21,26 @@
   /* Other colors */
   --transparent: transparent;
 }
+
+@font-face {
+  font-family: "Work sans";
+  src: url("./assets/fonts/WorkSans-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Work sans";
+  src: url("./assets/fonts/WorkSans-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Work sans";
+  src: url("./assets/fonts/WorkSans-Medium.ttf");
+  font-weight: 500;
+}
+
+
+* {
+  font-family: "Work sans" !important;
+}

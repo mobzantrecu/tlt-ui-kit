@@ -1,0 +1,15 @@
+.input_container {
+  border: 2px solid;
+  border-radius: 20px;
+  border-style: solid;
+  display: flex;
+  padding: 5px 10px;
+
+}
+
+.input_container input {
+  flex: 1 1 auto;
+  padding: 0px;
+  border-style: solid;
+  border-color: transparent;
+}

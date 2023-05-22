@@ -1,1 +1,3 @@
-export * from './components';
+import "./main.css";
+
+export * from "./components";

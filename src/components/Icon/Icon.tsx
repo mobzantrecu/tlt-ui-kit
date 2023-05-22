@@ -1,15 +1,15 @@
 import iconStyles from "./icon.module.css";
 
-import arrowIcon from "../../../public/icons/arrows.svg";
-import eyesIcon from "../../../public/icons/eyes.svg";
-import fingerIcon from "../../../public/icons/finger.svg";
-import fireIcon from "../../../public/icons/fire.svg";
-import openBoxIcon from "../../../public/icons/open-box.svg";
-import recycleIcon from "../../../public/icons/recycle.svg";
-import thunderIcon from "../../../public/icons/thunder.svg";
-import umbrellaIcon from "../../../public/icons/umbrella.svg";
-import warningIcon from "../../../public/icons/warning.svg";
-import worldIcon from "../../../public/icons/world.svg";
+import arrowIcon from "../../assets/icons/arrows.svg";
+import eyesIcon from "../../assets/icons/eyes.svg";
+import fingerIcon from "../../assets/icons/finger.svg";
+import fireIcon from "../../assets/icons/fire.svg";
+import openBoxIcon from "../../assets/icons/open-box.svg";
+import recycleIcon from "../../assets/icons/recycle.svg";
+import thunderIcon from "../../assets/icons/thunder.svg";
+import umbrellaIcon from "../../assets/icons/umbrella.svg";
+import warningIcon from "../../assets/icons/warning.svg";
+import worldIcon from "../../assets/icons/world.svg";
 
 const imageMap = {
   arrows: arrowIcon,
