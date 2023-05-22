@@ -1,6 +1,6 @@
 .input_container {
   border: 2px solid;
-  border-radius: 20px;
+  border-radius: 99999px;
   border-style: solid;
   display: flex;
   padding: 5px 10px;

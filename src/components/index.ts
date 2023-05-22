@@ -8,3 +8,4 @@ export { default as Radio } from './Radio';
 export { default as ProgressBar } from './ProgressBar';
 export { default as Icon } from './Icon';
 export { default as Checkbox } from './Checkbox';
+export { default as Input } from './Input';

@@ -3,7 +3,7 @@
   "author": "Bewise",
   "private": false,
   "name": "tlt-ui-kit",
-  "version": "0.4.3",
+  "version": "0.4.6",
   "type": "module",
   "scripts": {
     "dev": "vite",
